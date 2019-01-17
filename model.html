@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+</head>
+<body>
+<script type="text/javascript">
+    document.write('<div id="time"></div>');
+    function showTime(){
+        var time = new Date();
+        document.getElementById("time").innerHTML=time.getFullYear()+"年"+(time.getMonth()+1)+"月"+time.getDate()+"日"+time.getHours()+":"+time.getMinutes()+":"+time.getSeconds();
+    }
+    setInterval(showTime,500);
+</script>
+<p>git 练习</p>
+<p>git 练习</p>
+<p>git 练习</p>
+</body>
+</html>
